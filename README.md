@@ -88,9 +88,11 @@ _(Notice how the agent understood "he" refers to Satya Nadella based on the prev
 
 ```
 Research-agent/
-├── node_modules/       # Dependencies
+├── node_modules/
+├── basic-test.js       # API key testing
+├── check_models.js     #  available models checking
 ├── agent_memory.js     # Main Agent Logic (Memory + Search)
-├── agents2.js          # Basic Agent Implementation
+├── research_agent.js          # Basic Agent Implementation
 ├── package.json        # Project Metadata & Scripts
 ├── .env                # API Keys (Not pushed to GitHub)
 └── README.md           # Project Documentation
