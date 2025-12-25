@@ -4,7 +4,7 @@
 
 This project is a state-of-the-art Conversational AI Agent built using Node.js and LangChain. Unlike standard passive chatbots, this agent implements the ReAct (Reasoning and Acting) architecture. This allows the AI to "think" before answering, perform real-time internet searches, and maintain conversation context.
 
-It uses Google's Gemini 1.5 Flash model as the reasoning engine and Tavily API for retrieving accurate, up-to-date information from the web.
+It uses Google's Gemini 2.5 pro model as the reasoning engine and Tavily API for retrieving accurate, up-to-date information from the web.
 
 ## Key Features
 
@@ -102,7 +102,3 @@ Research-agent/
 - [ ] **RAG Implementation:** Add capability to read and chat with PDF documents/Resumes.
 - [ ] **Persistent Database:** Move from in-memory storage to a database (Redis/PostgreSQL) to save chat history permanently.
 - [ ] **Frontend UI:** Build a React.js interface for a better user experience.
-
-## License
-
-This project is open-source and available under the MIT License.
