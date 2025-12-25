@@ -59,7 +59,7 @@ Thought:{agent_scratchpad}
 
 async function runAgent() {
   try {
-    console.log("ReAct Agent start ho raha hai...\n");
+    console.log("ReAct Agent starting up...\n");
 
     // 4. Create ReAct Agent
     const agent = await createReactAgent({
@@ -82,7 +82,7 @@ async function runAgent() {
       input: question,
     });
 
-    console.log("\n Final Jawab:\n", result.output);
+    console.log("\n Final Answer:\n", result.output);
 
   } catch (error) {
     console.error(" Error:", error.message);
