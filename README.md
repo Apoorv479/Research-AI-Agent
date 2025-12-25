@@ -92,7 +92,7 @@ Research-agent/
 ├── basic-test.js       # API key testing
 ├── check_models.js     #  available models checking
 ├── agent_memory.js     # Main Agent Logic (Memory + Search)
-├── research_agent.js          # Basic Agent Implementation
+├── research_agent.js   # Basic Agent Implementation
 ├── package.json        # Project Metadata & Scripts
 ├── .env                # API Keys (Not pushed to GitHub)
 └── README.md           # Project Documentation
