@@ -4,7 +4,7 @@ dotenv.config();
 const apiKey = process.env.GOOGLE_API_KEY;
 
 if (!apiKey) {
-  console.error("❌ Error: .env file not found");
+  console.error(" Error: .env file not found");
   process.exit(1);
 }
 
